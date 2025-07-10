@@ -65,6 +65,7 @@ nav{
 
 }
 .template{
+    text-align: center;
     font-weight: bold;
     font-size: 65px;
     color: rgba(37, 36, 50, 1);
@@ -134,6 +135,50 @@ nav{
     display: flex;
     justify-content: space-around;
     
+}
+/* users feedbacks */
+/* focus betters */
+.focus-better{
+    width: 1140px;
+    height: 696px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 14px;
+    margin-left: 100px;
+    
+}
+.focus-better-container{
+    display: block;
+    align-content: center;
+}
+.focus-better-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 15px;
+
+}
+.focus-better-description{
+    text-align: center;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.focus-better-button{
+    text-align: center;
+    background-color: rgba(78, 71, 255, 1);
+    width: 195px;
+    height: 48px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.focus-better-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+        width: 840px;
+        height: 364px;
+        border-radius: 48px;
 }
 
 
