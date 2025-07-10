@@ -1,0 +1,54 @@
+/* inter font */
+
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* raleway font */
+
+.open-sans-raleway {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared styles */
+.green-color{
+    color: rgba(78, 71, 255, 1);
+}
+/* header background */
+header{
+    width: 1340px;
+    /* as my laptop display width is low  */
+    height: 698px;
+
+    background-image: url('/Assets/Hero-bg.png');
+}
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-title{
+     font-weight: 900;
+     font-size: 34px;
+}
+.nav-button{
+    background-color: rgba(78, 71, 255, 1);
+    width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+/* banner styles */
+
+
+
+    
