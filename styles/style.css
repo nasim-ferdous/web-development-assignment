@@ -1,55 +1,69 @@
 /* inter font */
 
 .open-sans-inter {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
+
 /* raleway font */
 
 .open-sans-raleway {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
+
 /* shared styles */
-.green-color{
+.green-color {
     color: rgba(78, 71, 255, 1);
 }
-.font-for-joined{
+
+.font-for-joined {
     font-weight: bold;
     font-size: 80px;
     margin: 0 0 0 0;
 }
-.font-for-joined-description{
+
+.font-for-joined-description {
     font-weight: 400;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     margin: 0 0 0 0;
 }
+
+.form-label-text {
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+}
+
 /* header background */
-header{
+header {
     width: 1340px;
     /* as my laptop display width is low  */
     height: 698px;
 
     background-image: url('/Assets/Hero-bg.png');
 }
+
 /* nav styles */
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.nav-title{
-     font-weight: 900;
-     font-size: 34px;
+
+.nav-title {
+    font-weight: 900;
+    font-size: 34px;
 }
-.nav-button{
+
+.nav-button {
     background-color: rgba(78, 71, 255, 1);
     width: 132px;
     height: 48px;
@@ -58,20 +72,23 @@ nav{
     font-size: 16px;
     color: white;
 }
+
 /* banner styles */
-.banner{
-  width: 805px;
-  height: 237px;
+.banner {
+    width: 805px;
+    height: 237px;
 
 }
-.template{
+
+.template {
     text-align: center;
     font-weight: bold;
     font-size: 65px;
     color: rgba(37, 36, 50, 1);
 }
-.focus{
-    background-color: rgba(78, 71, 255, 1) ;
+
+.focus {
+    background-color: rgba(78, 71, 255, 1);
     width: 174px;
     height: 48px;
     border-radius: 10px;
@@ -79,29 +96,34 @@ nav{
     font-size: 16px;
     color: white;
 }
+
 /* action sections */
-.action{
+.action {
     width: 1140px;
     height: 328px;
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 70px;
 }
-.action-title{
+
+.action-title {
     color: rgba(37, 36, 50, 1);
     font-weight: bold;
     font-size: 42px;
     margin-bottom: 23px;
 
 }
-.action-description{
+
+.action-description {
     color: rgba(37, 36, 50, 1);
     font-weight: 400;
     font-size: 24;
 }
-.action-button{
-    background-color: rgba(78, 71, 255, 1) ;
+
+.action-button {
+    background-color: rgba(78, 71, 255, 1);
     width: 229px;
     height: 48px;
     border-radius: 10px;
@@ -110,13 +132,15 @@ nav{
     color: white;
 
 }
-.right-side-img{
-    width: 403px ;
+
+.right-side-img {
+    width: 403px;
     height: 328px;
-    border-radius: 48px ;
+    border-radius: 48px;
 }
+
 /* joined styles */
-.joined{
+.joined {
     width: 1140px;
     height: 306px;
     border-radius: 24px;
@@ -124,33 +148,39 @@ nav{
     margin-left: 100px;
 
 }
-.joined-title{
+
+.joined-title {
     text-align: center;
     font-weight: bold;
     font-size: 38px;
     color: rgba(37, 36, 50, 1);
     padding-top: 50px;
 }
-.content-container{
+
+.content-container {
     display: flex;
     justify-content: space-around;
-    
+
 }
+
 /* users feedbacks */
 /* focus betters */
-.focus-better{
+.focus-better {
     width: 1140px;
     height: 696px;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 14px;
-    margin-left: 100px;
-    
+    margin-left: auto;
+    margin-right: auto;
+
 }
-.focus-better-container{
+
+.focus-better-container {
     display: block;
     align-content: center;
 }
-.focus-better-title{
+
+.focus-better-title {
     text-align: center;
     font-weight: bold;
     font-size: 50px;
@@ -158,12 +188,14 @@ nav{
     margin-bottom: 15px;
 
 }
-.focus-better-description{
+
+.focus-better-description {
     text-align: center;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
 }
-.focus-better-button{
+
+.focus-better-button {
     text-align: center;
     background-color: rgba(78, 71, 255, 1);
     width: 195px;
@@ -172,17 +204,61 @@ nav{
     font-weight: 500;
     font-size: 16px;
 }
-.focus-better-img{
+
+.focus-better-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-        width: 840px;
-        height: 364px;
-        border-radius: 48px;
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
 }
 
+/* get in touch */
+.touch {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 634px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
 
+.touch-title {
+    font-weight: bold;
+    font-size: 97px;
+    color: rgba(0, 0, 0, 1);
+    padding-top: 125px;
 
+}
+.form{
+    padding-top: 125px;
+}
 
+.email {
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+}
 
-    
+.name {
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.message {
+    width: 497px;
+    height: 135px;
+    border-radius: 10px;
+}
+.form-button{
+    background-color: rgba(78, 71, 255, 1);
+    width: 497px;
+    height: 62px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
