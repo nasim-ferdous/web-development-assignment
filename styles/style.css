@@ -48,6 +48,62 @@ nav{
     color: white;
 }
 /* banner styles */
+.banner{
+  width: 805px;
+  height: 237px;
+
+}
+.template{
+    font-weight: bold;
+    font-size: 65px;
+    color: rgba(37, 36, 50, 1);
+}
+.focus{
+    background-color: rgba(78, 71, 255, 1) ;
+    width: 174px;
+    height: 48px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+/* action sections */
+.action{
+    width: 1140px;
+    height: 328px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.action-title{
+    color: rgba(37, 36, 50, 1);
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 23px;
+
+}
+.action-description{
+    color: rgba(37, 36, 50, 1);
+    font-weight: 400;
+    font-size: 24;
+}
+.action-button{
+    background-color: rgba(78, 71, 255, 1) ;
+    width: 229px;
+    height: 48px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+
+}
+.right-side-img{
+    width: 403px ;
+    height: 328px;
+    border-radius: 48px ;
+}
+
 
 
 
