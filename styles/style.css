@@ -1,5 +1,6 @@
 /* inter font */
 
+
 .open-sans-inter {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -8,10 +9,9 @@
         "wdth" 100;
 }
 
-/* raleway font */
 
-.open-sans-raleway {
-    font-family: "Open Sans", sans-serif;
+/* raleway font */
+--------------------------------- .open-sans-raleway {
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
@@ -43,7 +43,7 @@
 }
 
 .every-button:hover {
-cursor: pointer;
+    cursor: pointer;
 }
 
 /* header background */
@@ -76,15 +76,17 @@ nav {
     font-size: 16px;
     color: white;
 }
-.nav-button:hover{
-    box-shadow: inset 132px 0 0 0 #f9e506;
+
+.nav-button:hover {
+    background-color: #f9e506;
     color: #000;
 }
 
 /* banner styles */
 .banner {
-    width: 805px;
-    height: 237px;
+    text-align: center;
+    /* width: 805px; */
+    /* height: 237px; */
 
 }
 
@@ -93,6 +95,9 @@ nav {
     font-weight: bold;
     font-size: 65px;
     color: rgba(37, 36, 50, 1);
+    margin-bottom: 37px;
+    margin-top: 95px;
+    padding: 0px 300px;
 }
 
 .banner-button {
@@ -104,8 +109,9 @@ nav {
     font-size: 16px;
     color: white;
 }
-.banner-button:hover{
-    box-shadow: inset 174px 0 0 0 #f9e506;
+
+.banner-button:hover {
+    background-color: #f9e506;
     color: #000;
 }
 
@@ -114,6 +120,7 @@ nav {
     width: 1140px;
     height: 328px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
@@ -125,6 +132,7 @@ nav {
     font-weight: bold;
     font-size: 42px;
     margin-bottom: 23px;
+    margin-top: 0;
 
 }
 
@@ -145,9 +153,10 @@ nav {
     color: white;
 
 }
-.action-button:hover{
-    box-shadow: inset 229px 0 0 0 #f9e506;
-    color:#000;
+
+.action-button:hover {
+    background-color: #f9e506;
+    color: #000;
 }
 
 .right-side-img {
@@ -162,13 +171,19 @@ nav {
     height: 306px;
     border-radius: 24px;
     background-color: rgba(78, 71, 255, 0.1);
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
+
 .content-container {
     display: flex;
     justify-content: space-around;
 
+}
+
+.content {
+    text-align: center;
 }
 
 .joined-title {
@@ -182,46 +197,70 @@ nav {
 
 
 /* users feedbacks */
-.users-feedback{
+.users-feedback {
     width: 1140px;
     height: 342px;
     margin-left: auto;
     margin-right: auto;
 
 }
-.user-feedback-title{
+
+.user-feedback-title {
     text-align: center;
     font-weight: bold;
     font-size: 42px;
     color: rgba(37, 36, 50, 1);
 }
-.users-feedback-container{
+
+.users-feedback-card-container {
     display: flex;
     justify-content: space-around;
 }
-.users-feedback-content-title{
+
+.users-feedback-card-content {
+    width: 335px;
+    height: 190px;
+    border-radius: 14px;
+    background-color: rgba(242, 237, 237, 1);
+    padding: 15px;
+
+}
+
+.users-feedback-card-content-title {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 0;
     margin-top: 20px;
 }
-.users-feedback-content-description{
+
+.users-feedback-card-content-description {
     font-size: 16px;
     margin-top: 0;
 }
-.users-feedback-content-avatar{
+
+.reviewer {
+    display: flex;
+    align-items: center;
+}
+
+.reviewer p {
+    margin: 0;
+}
+
+.users-feedback-card-content-avatar {
     width: 40px;
     height: 40px;
+    border-radius: 50px;
+    margin-right: 15px;
 }
-.users-feedback-container-label{
-    font-weight: bold;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.5);
-}
+
+
+
 /* focus betters */
 .focus-better {
     width: 1140px;
     height: 696px;
+    text-align: center;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 14px;
     margin-left: auto;
@@ -229,13 +268,8 @@ nav {
 
 }
 
-.focus-better-container {
-    display: block;
-    align-content: center;
-}
 
 .focus-better-title {
-    text-align: center;
     font-weight: bold;
     font-size: 50px;
     color: rgba(0, 0, 0, 1);
@@ -244,23 +278,25 @@ nav {
 }
 
 .focus-better-description {
-    text-align: center;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
 }
 
 .focus-better-button {
-    text-align: center;
     background-color: rgba(78, 71, 255, 1);
     width: 195px;
     height: 48px;
     border-radius: 10px;
     font-weight: 500;
     font-size: 16px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
-.focus-better-button:hover{
-     box-shadow: inset 195px 0 0 0 #f9e506;
-     color: #000;
+
+.focus-better-button:hover {
+    background-color: #f9e506;
+    color: #000;
 }
 
 .focus-better-img {
@@ -277,7 +313,7 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 1140px;
-    height: 634px;
+    /* height: 634px; */
     margin-left: auto;
     margin-right: auto;
 
@@ -297,39 +333,48 @@ nav {
 
 .email {
     width: 497px;
-    height: 70px;
+    height: 50px;
     border-radius: 10px;
+    padding-left: 15px;
+    margin-bottom: 15px;
 }
 
 .name {
     width: 497px;
-    height: 70px;
+    height: 50px;
     border-radius: 10px;
+    padding-left: 15px;
+    margin-bottom: 15px;
 }
 
 .message {
     width: 497px;
-    height: 135px;
     border-radius: 10px;
+    padding-left: 15px;
+    margin-bottom: 15px;
 }
 
 .form-button {
     background-color: rgba(78, 71, 255, 1);
-    width: 497px;
+    width: 100%;
     height: 62px;
     border-radius: 10px;
     font-weight: bold;
     font-size: 16px;
     color: white;
 }
-.form-button:hover{
-    box-shadow: inset 497px 0 0 0 #f9e506;
+
+.form-button:hover {
+    background-color: #f9e506;
     color: #000;
 }
 
 /* footer sections */
 .links {
-    display: contents;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
 }
 
 .footer-title {
